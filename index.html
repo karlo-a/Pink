@@ -1,11 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Pink</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="#"
+        ><img
+          class="page-header__logo-image"
+          src="#"
+          height=""
+          width=""
+          alt="Логотип сайта Pink"
+      /></a>
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item"><a href="">Главная</a></li>
+            <li class="site-list__item"><a href="">Фотографии</a></li>
+            <li class="site-list__item"><a href="">Конкурс</a></li>
+            <li class="site-list__item"><a href="">HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="promo">
+        <h2 class="promo__slogan">Взгляните на жизнь иначе!</h2>
+        <button type="button">Скачать приложение</button>
+        <ul class="promo__list">
+          <li class="promo-list__item">
+            <a class="promo__link promo__link--apple" href="#"></a>
+          </li>
+          <li class="promo-list__item">
+            <a class="promo__link promo__link--android" href="#"></a>
+          </li>
+          <li class="promo-list__item">
+            <a class="promo__link promo__link--microsoft" href="#"></a>
+          </li>
+        </ul>
+        <p>
+          Доступно для Iphone, Ipad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </div>
+    </header>
+
+    <section class="page-main">
+      <h2 class="page-main__slogan">Устали от серости мегаполиса?</h2>
+      <h2 class="page-main__slogan">
+        Нам есть что вам <br />
+        предложить!
+      </h2>
+      <ul class="page-main__list">
+        <li class="main-list__item">
+          <p class="main-list__picture">
+            <img
+              class="main-list__picture--image1"
+              src=""
+              width=""
+              height=""
+              alt="Тоскливое чб фото"
+            />
+          </p>
+          <b class="main-list__title">Поднимает настроение</b>
+          <p сlass="page-main__text">
+            Приложение позволит вам победить осеннюю хандру и депрессию
+            буквально в несколько кликов
+          </p>
+        </li>
+
+        <li class="main-list__item">
+          <p class="main-list__picture">
+            <img
+              class="main-list__picture--image2"
+              src=""
+              width=""
+              height=""
+              alt="Тоскливое цветное фото"
+            />
+          </p>
+          <b class="main-list__title">Меняет мир вокруг</b>
+          <p сlass="page-main__text">
+            Сделайте снимок и украсьте его смайликом или текттовой подписью,
+            чтобы усилить эффект
+          </p>
+        </li>
+
+        <li class="main-list__item">
+          <p class="main-list__picture">
+            <img
+              class="main-list__picture--image3"
+              src=""
+              width=""
+              height=""
+              alt="Весёлое фото"
+            />
+          </p>
+          <b class="main-list__title">Заводит новых друзей</b>
+          <p сlass="page-main__text">
+            Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
+            заводите новых
+          </p>
+        </li>
+      </ul>
+      <div class="page-main__news">
+        <img
+          class="page-main__news--image"
+          src=""
+          width=""
+          height=""
+          alt="Картинка часов"
+        />
+        <b class="main-list__title">Эффект на 24 часа!</b>
+        <p class="page-main__text">
+          Британские ученые провели исследование и доказали, что положительный
+          эффект от использования приложения дляится целые сутки!
+        </p>
+        <a class="news__link" href="#">Узнать больше об исследовании</a>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews-wrapper">
+        <div class="reviews__icon">
+          <img src="#" width="" height="" alt="Картинка отступ" />
+        </div>
+
+        <p class="reviews__text">
+          "Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+          привычные старые вещи! А еще я познакомился со своей будущей женой в
+          комментариях к выложенной фотографии"
+        </p>
+        <b class="reviews__name">Николай Петров</b>
+        <p class="reviews__text">25 лет, водитель трамвая</p>
+
+        <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+        <button class="reviews__next" type="button">Следующий отзыв</button>
+
+        <p class="reviews-toggles slider-toggles">
+          <button class="slider-toggle" type="button">1</button>
+          <button class="slider-toggle" type="button">2</button>
+          <button class="slider-toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+    <section class="price">
+      <table class="price__list">
+        <tr>
+          <td class="price__header"></td>
+          <td class="price__header">
+            <div class="price-header__content">
+              <p class="price-header__value-top">База</p>
+              <p class="price-header__value-bottom">1,99 USD</p>
+            </div>
+          </td>
+          <td class="price__header">
+            <div class="price-header__content">
+              <p class="price-header__value-top">Стандарт</p>
+              <p class="price-header__value-bottom">3,99 USD</p>
+            </div>
+          </td>
+          <td class="price__header">
+            <div class="price-header__content">
+              <p class="price-header__value-top">Анлим</p>
+              <p class="price-header__value-bottom">9,99 USD</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </body>
 </html>
